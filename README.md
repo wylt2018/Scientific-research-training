@@ -1,5 +1,5 @@
 # Scientific-research-training
-该程序采取词袋模型，且根据网上查找的资料以及kaggle中已有的范例进行了改进。
+该程序采用词袋模型，且根据网上查找的资料以及kaggle中已有的范例进行了改进。
 
 1、采用了TfidfVectorizer中的n-grams模型。在countvectorizer中每个词向量均为一元的，类似not good的短语会被分离为not与good，而good可能会提升该影评的积极程度，导致结果存在偏差。
 
